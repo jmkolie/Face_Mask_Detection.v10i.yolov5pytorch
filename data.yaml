@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Masque', 'Notcorrect', 'PasMasque']
+
+roboflow:
+  workspace: master-ia
+  project: face_mask_detection-d1avp
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/master-ia/face_mask_detection-d1avp/dataset/10
